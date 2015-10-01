@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
+options: "c514bf7974438b0a9d0a47dd9a83aa12"
+build_time: [497054368, 670217000]
+inputs: 
+	"/Users/KentarOu/Desktop/Desk Top/Xcode_Project/2015_Project/2015\u5E74_10\u6708/2ColumnPicker/2ColumnPicker/Picker/KeyBoardToolBar.swift": [496418906, 0]
+	"/Users/KentarOu/Desktop/Desk Top/Xcode_Project/2015_Project/2015\u5E74_10\u6708/2ColumnPicker/2ColumnPicker/Picker/CustomTextField.swift": [497054368, 0]
+	"/Users/KentarOu/Desktop/Desk Top/Xcode_Project/2015_Project/2015\u5E74_10\u6708/2ColumnPicker/2ColumnPicker/ViewController.swift": [497052522, 0]
+	"/Users/KentarOu/Desktop/Desk Top/Xcode_Project/2015_Project/2015\u5E74_10\u6708/2ColumnPicker/2ColumnPicker/AppDelegate.swift": [497048190, 0]

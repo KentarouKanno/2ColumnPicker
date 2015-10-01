@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Rej-aZ-HWt" customClass="KeyboardToolBar" customModule="_ColumnPicker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+            <items>
+                <barButtonItem title="Cancel" id="MAd-OU-KLW">
+                    <connections>
+                        <action selector="cancelButton:" destination="Rej-aZ-HWt" id="ymG-gn-Rpf"/>
+                    </connections>
+                </barButtonItem>
+                <barButtonItem style="plain" systemItem="flexibleSpace" id="HDP-Pa-9xm"/>
+                <barButtonItem title="Done" id="z1s-72-JmJ">
+                    <connections>
+                        <action selector="doneButton:" destination="Rej-aZ-HWt" id="Uq4-ob-gRp"/>
+                    </connections>
+                </barButtonItem>
+            </items>
+            <connections>
+                <outlet property="cancelButton" destination="MAd-OU-KLW" id="D1N-hc-igB"/>
+                <outlet property="doneButton" destination="z1s-72-JmJ" id="eSP-EM-Dqx"/>
+            </connections>
+            <point key="canvasLocation" x="240" y="498"/>
+        </toolbar>
+    </objects>
+</document>

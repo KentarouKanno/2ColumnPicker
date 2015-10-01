@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36AFB7531BBDD57E0056EB3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AFB7521BBDD57E0056EB3C /* AppDelegate.swift */; };
+		36AFB7551BBDD57E0056EB3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AFB7541BBDD57E0056EB3C /* ViewController.swift */; };
+		36AFB7581BBDD57E0056EB3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36AFB7561BBDD57E0056EB3C /* Main.storyboard */; };
+		36AFB75A1BBDD57E0056EB3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36AFB7591BBDD57E0056EB3C /* Assets.xcassets */; };
+		36AFB75D1BBDD57E0056EB3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36AFB75B1BBDD57E0056EB3C /* LaunchScreen.storyboard */; };
+		36AFB7681BBDD65B0056EB3C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AFB7651BBDD65B0056EB3C /* CustomTextField.swift */; settings = {ASSET_TAGS = (); }; };
+		36AFB7691BBDD65B0056EB3C /* KeyBoardToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AFB7661BBDD65B0056EB3C /* KeyBoardToolBar.swift */; settings = {ASSET_TAGS = (); }; };
+		36AFB76A1BBDD65B0056EB3C /* KeyBoardToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36AFB7671BBDD65B0056EB3C /* KeyBoardToolBar.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36AFB74F1BBDD57E0056EB3C /* 2ColumnPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2ColumnPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36AFB7521BBDD57E0056EB3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36AFB7541BBDD57E0056EB3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36AFB7571BBDD57E0056EB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36AFB7591BBDD57E0056EB3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36AFB75C1BBDD57E0056EB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36AFB75E1BBDD57E0056EB3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36AFB7651BBDD65B0056EB3C /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTextField.swift; path = Picker/CustomTextField.swift; sourceTree = "<group>"; };
+		36AFB7661BBDD65B0056EB3C /* KeyBoardToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyBoardToolBar.swift; path = Picker/KeyBoardToolBar.swift; sourceTree = "<group>"; };
+		36AFB7671BBDD65B0056EB3C /* KeyBoardToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KeyBoardToolBar.xib; path = Picker/KeyBoardToolBar.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36AFB74C1BBDD57E0056EB3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36AFB7461BBDD57E0056EB3C = {
+			isa = PBXGroup;
+			children = (
+				36AFB7511BBDD57E0056EB3C /* 2ColumnPicker */,
+				36AFB7501BBDD57E0056EB3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36AFB7501BBDD57E0056EB3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36AFB74F1BBDD57E0056EB3C /* 2ColumnPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36AFB7511BBDD57E0056EB3C /* 2ColumnPicker */ = {
+			isa = PBXGroup;
+			children = (
+				36AFB7521BBDD57E0056EB3C /* AppDelegate.swift */,
+				36AFB7541BBDD57E0056EB3C /* ViewController.swift */,
+				36AFB7641BBDD6470056EB3C /* Picker */,
+				36AFB7561BBDD57E0056EB3C /* Main.storyboard */,
+				36AFB7591BBDD57E0056EB3C /* Assets.xcassets */,
+				36AFB75B1BBDD57E0056EB3C /* LaunchScreen.storyboard */,
+				36AFB75E1BBDD57E0056EB3C /* Info.plist */,
+			);
+			path = 2ColumnPicker;
+			sourceTree = "<group>";
+		};
+		36AFB7641BBDD6470056EB3C /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				36AFB7651BBDD65B0056EB3C /* CustomTextField.swift */,
+				36AFB7661BBDD65B0056EB3C /* KeyBoardToolBar.swift */,
+				36AFB7671BBDD65B0056EB3C /* KeyBoardToolBar.xib */,
+			);
+			name = Picker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36AFB74E1BBDD57E0056EB3C /* 2ColumnPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36AFB7611BBDD57E0056EB3C /* Build configuration list for PBXNativeTarget "2ColumnPicker" */;
+			buildPhases = (
+				36AFB74B1BBDD57E0056EB3C /* Sources */,
+				36AFB74C1BBDD57E0056EB3C /* Frameworks */,
+				36AFB74D1BBDD57E0056EB3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 2ColumnPicker;
+			productName = 2ColumnPicker;
+			productReference = 36AFB74F1BBDD57E0056EB3C /* 2ColumnPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36AFB7471BBDD57E0056EB3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = KentarOu;
+				TargetAttributes = {
+					36AFB74E1BBDD57E0056EB3C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 36AFB74A1BBDD57E0056EB3C /* Build configuration list for PBXProject "2ColumnPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36AFB7461BBDD57E0056EB3C;
+			productRefGroup = 36AFB7501BBDD57E0056EB3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36AFB74E1BBDD57E0056EB3C /* 2ColumnPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36AFB74D1BBDD57E0056EB3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36AFB76A1BBDD65B0056EB3C /* KeyBoardToolBar.xib in Resources */,
+				36AFB75D1BBDD57E0056EB3C /* LaunchScreen.storyboard in Resources */,
+				36AFB75A1BBDD57E0056EB3C /* Assets.xcassets in Resources */,
+				36AFB7581BBDD57E0056EB3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36AFB74B1BBDD57E0056EB3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36AFB7691BBDD65B0056EB3C /* KeyBoardToolBar.swift in Sources */,
+				36AFB7551BBDD57E0056EB3C /* ViewController.swift in Sources */,
+				36AFB7531BBDD57E0056EB3C /* AppDelegate.swift in Sources */,
+				36AFB7681BBDD65B0056EB3C /* CustomTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36AFB7561BBDD57E0056EB3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36AFB7571BBDD57E0056EB3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36AFB75B1BBDD57E0056EB3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36AFB75C1BBDD57E0056EB3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36AFB75F1BBDD57E0056EB3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36AFB7601BBDD57E0056EB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36AFB7621BBDD57E0056EB3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 2ColumnPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KentarOu.-ColumnPicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36AFB7631BBDD57E0056EB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 2ColumnPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KentarOu.-ColumnPicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36AFB74A1BBDD57E0056EB3C /* Build configuration list for PBXProject "2ColumnPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36AFB75F1BBDD57E0056EB3C /* Debug */,
+				36AFB7601BBDD57E0056EB3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36AFB7611BBDD57E0056EB3C /* Build configuration list for PBXNativeTarget "2ColumnPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36AFB7621BBDD57E0056EB3C /* Debug */,
+				36AFB7631BBDD57E0056EB3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36AFB7471BBDD57E0056EB3C /* Project object */;
+}

@@ -1,0 +1,200 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C13_ColumnPicker14ViewController"
+provides-member:
+- ["C13_ColumnPicker14ViewController", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+- "didReceiveMemoryWarning"
+- "pickerKeyBoard"
+depends-top-level:
+- "ViewController"
+- !private "StringLiteralType"
+- "CustomTextField"
+- "UIViewController"
+depends-member:
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "inputType"]
+- ["PSs9AnyObject", "pickerKeyBoard"]
+- !private ["PSs9AnyObject", "placeholder"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "inputType"]
+- ["PSs11CVarArgType", "pickerKeyBoard"]
+- !private ["PSs11CVarArgType", "placeholder"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "inputType"]
+- ["PSs23CustomStringConvertible", "pickerKeyBoard"]
+- !private ["PSs23CustomStringConvertible", "placeholder"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["C13_ColumnPicker15CustomTextField", "inputType"]
+- !private ["C13_ColumnPicker15CustomTextField", "placeholder"]
+- !private ["PSs9Equatable", "TwoColumnPicker"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "inputType"]
+- ["PSs9Equatable", "pickerKeyBoard"]
+- !private ["PSs9Equatable", "placeholder"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "TwoColumnPicker"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "inputType"]
+- ["PSs8Hashable", "pickerKeyBoard"]
+- !private ["PSs8Hashable", "placeholder"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["O13_ColumnPicker9InputType", "TwoColumnPicker"]
+- !private ["P13_ColumnPicker23KeyboardToolBarDelegate", "inputType"]
+- !private ["P13_ColumnPicker23KeyboardToolBarDelegate", "placeholder"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "inputType"]
+- ["PSo8NSCoding", "pickerKeyBoard"]
+- !private ["PSo8NSCoding", "placeholder"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "pickerKeyBoard"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "CustomTextField"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "inputType"]
+- ["CSo8NSObject", "pickerKeyBoard"]
+- !private ["CSo8NSObject", "placeholder"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "inputType"]
+- ["PSo16NSObjectProtocol", "pickerKeyBoard"]
+- !private ["PSo16NSObjectProtocol", "placeholder"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "inputType"]
+- !private ["PSo29UIAccessibilityIdentification", "placeholder"]
+- !private ["PSo12UIAppearance", "inputType"]
+- !private ["PSo12UIAppearance", "placeholder"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "inputType"]
+- ["PSo21UIAppearanceContainer", "pickerKeyBoard"]
+- !private ["PSo21UIAppearanceContainer", "placeholder"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "pickerKeyBoard"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "inputType"]
+- !private ["CSo9UIControl", "placeholder"]
+- !private ["PSo17UICoordinateSpace", "inputType"]
+- !private ["PSo17UICoordinateSpace", "placeholder"]
+- !private ["PSo13UIDynamicItem", "inputType"]
+- !private ["PSo13UIDynamicItem", "placeholder"]
+- !private ["PSo10UIKeyInput", "inputType"]
+- !private ["PSo10UIKeyInput", "placeholder"]
+- !private ["PSo22UIPickerViewDataSource", "inputType"]
+- !private ["PSo22UIPickerViewDataSource", "placeholder"]
+- !private ["PSo20UIPickerViewDelegate", "inputType"]
+- !private ["PSo20UIPickerViewDelegate", "placeholder"]
+- ["CSo11UIResponder", "CustomTextField"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "inputType"]
+- ["CSo11UIResponder", "pickerKeyBoard"]
+- !private ["CSo11UIResponder", "placeholder"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "pickerKeyBoard"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITextField", "inputType"]
+- !private ["CSo11UITextField", "placeholder"]
+- !private ["PSo11UITextInput", "inputType"]
+- !private ["PSo11UITextInput", "placeholder"]
+- !private ["PSo17UITextInputTraits", "inputType"]
+- !private ["PSo17UITextInputTraits", "placeholder"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "inputType"]
+- ["PSo18UITraitEnvironment", "pickerKeyBoard"]
+- !private ["PSo18UITraitEnvironment", "placeholder"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "inputType"]
+- !private ["CSo6UIView", "placeholder"]
+- ["CSo16UIViewController", "CustomTextField"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "pickerKeyBoard"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- ["C13_ColumnPicker14ViewController", "CustomTextField"]
+- ["C13_ColumnPicker14ViewController", "deinit"]
+- ["C13_ColumnPicker14ViewController", "didReceiveMemoryWarning"]
+- ["C13_ColumnPicker14ViewController", "init"]
+- ["C13_ColumnPicker14ViewController", "pickerKeyBoard"]
+- ["C13_ColumnPicker14ViewController", "viewDidLoad"]
+- !private ["PSs12_Reflectable", "inputType"]
+- !private ["PSs12_Reflectable", "placeholder"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- !private "C13_ColumnPicker15CustomTextField"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- !private "O13_ColumnPicker9InputType"
+- !private "P13_ColumnPicker23KeyboardToolBarDelegate"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo10UIKeyInput"
+- !private "PSo22UIPickerViewDataSource"
+- !private "PSo20UIPickerViewDelegate"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "C13_ColumnPicker14ViewController"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "27006637da4bcad8687b0eb3249932f7"
